@@ -1,5 +1,7 @@
 # Bakeologic Web
 
+Bakeologic Web is a web frontend for the e-commerce platform for bakery shop, Bakeologic. It is built with React and React Router.
+
 ## Table of Contents
 
 ## About

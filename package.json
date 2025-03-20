@@ -3,10 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
+    "dev": "bun generate && react-router dev",
+    "build": "bun generate:prod && react-router build",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "generate": "openapi-typescript http://localhost:3000/openapi.json -o app/schema.d.ts",
+    "generate:prod": "openapi-typescript https://bakeologic-api.syarifhasibuan.com/openapi.json -o app/schema.d.ts"
   },
   "dependencies": {
     "@react-router/node": "^7.3.0",
@@ -27,6 +29,7 @@
     "@types/node": "^20.17.24",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "openapi-typescript": "^7.6.1",
     "react-router-devtools": "^1.1.6",
     "tailwindcss": "^4.0.14",
     "typescript": "^5.8.2",
