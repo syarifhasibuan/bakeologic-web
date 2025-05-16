@@ -18,6 +18,8 @@ export default [
 
     route("dashboard", "routes/dashboard.tsx"),
     route("cart", "routes/cart.tsx"),
+
+    route("demo", "routes/demo.tsx"),
   ]),
 
   route("register", "routes/register.tsx"),

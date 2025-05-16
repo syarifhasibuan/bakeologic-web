@@ -61,7 +61,7 @@
   --sidebar-accent-foreground: hsl(26 19.48% 30.2%);
   --sidebar-border: hsl(42.35 24.64% 86.47%);
   --sidebar-ring: hsl(92.43 19.17% 62.16%);
-  --font-sans: Merriweather, serif;
+  --font-sans: "Merriweather Variable", serif;
   --font-serif: Source Serif 4, serif;
   --font-mono: JetBrains Mono, monospace;
   --radius: 0.425rem;
@@ -113,7 +113,7 @@
   --sidebar-accent-foreground: hsl(26.67 12% 14.71%);
   --sidebar-border: hsl(40 13.21% 31.18%);
   --sidebar-ring: hsl(95 15.79% 55.29%);
-  --font-sans: Merriweather, serif;
+  --font-sans: "Merriweather Variable", serif;
   --font-serif: Source Serif 4, serif;
   --font-mono: JetBrains Mono, monospace;
   --radius: 0.425rem;

@@ -4,6 +4,7 @@
     "": {
       "name": "frontend",
       "dependencies": {
+        "@fontsource-variable/merriweather": "^5.2.2",
         "@fontsource/merriweather": "^5.2.6",
         "@hookform/resolvers": "^4.1.3",
         "@radix-ui/react-accordion": "^1.2.4",
@@ -226,6 +227,8 @@
     "@floating-ui/react-dom": ["@floating-ui/react-dom@2.1.2", "", { "dependencies": { "@floating-ui/dom": "^1.0.0" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A=="],
 
     "@floating-ui/utils": ["@floating-ui/utils@0.2.9", "", {}, "sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg=="],
+
+    "@fontsource-variable/merriweather": ["@fontsource-variable/merriweather@5.2.2", "", {}, "sha512-DZjuulo723T3TTf9ibAuWA2y1jsLlA+zDSA6j5AdnJF5rvpjlE9B/IRFiHt5rmKMdAS8tHF5GTEfQ9dwBRMtow=="],
 
     "@fontsource/merriweather": ["@fontsource/merriweather@5.2.6", "", {}, "sha512-lPFH6+Kz3V7MK9SRDI/Y9hxMc+2Sjb/FjyNHlotRjL7eFRhJ8/LnnWsDTGAccTuoGEmfdaaia7SHw6LoNtoIyg=="],
 

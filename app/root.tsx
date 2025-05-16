@@ -1,4 +1,3 @@
-import "@fontsource/merriweather";
 import {
   data,
   isRouteErrorResponse,
@@ -14,6 +13,7 @@ import type { CartJSON } from "~/modules/cart/type";
 import type { CategoriesJSON } from "~/modules/category/type";
 import { destroySession, getSession } from "~/sessions.server";
 import type { Route } from "./+types/root";
+import "@fontsource-variable/merriweather";
 import "./app.css";
 
 export async function loader({ request }: Route.LoaderArgs) {

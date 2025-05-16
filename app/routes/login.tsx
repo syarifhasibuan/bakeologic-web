@@ -61,10 +61,10 @@ export async function action({ request }: Route.ActionArgs) {
   }
 
   const loginResult: AuthLoginResponseSuccessBody = await response.json();
-  console.log(loginResult);
+  // console.log(loginResult);
 
   session.set("token", loginResult.token);
-  console.log(session.get("token"));
+  // console.log(session.get("token"));
 
   // Login succeeded, redirect to the dashboard
   return redirect("/dashboard", {
